@@ -4,6 +4,18 @@
     font-family:'Open Sans', sans-serif;
 }
 
+:root {
+    --text-headline: #E1624F;
+    --text-primary: #1B1B1B;
+    --text-secundary: #333333;
+    --text-tertiary: #696969;
+    
+    --accent-blue: #0C51A7;
+    --accent-purple: #591B98;
+    --accent-pink: #E5245E;
+    --accent-orange: #E95E10;
+}
+
 #page {
     box-sizing: border-box;
     width: 1120px;
@@ -12,6 +24,7 @@
 
 .headline {
     font-size: 22px;
+    margin-bottom: 8px;
 }
 
 h1 {
