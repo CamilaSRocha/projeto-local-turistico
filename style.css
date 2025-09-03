@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family:'Open Sans', sans-serif;
+    font-family:'Open Sans';
 }
 
 :root {
@@ -21,24 +21,42 @@
     margin: 88px auto 65px;
 }
 
+#first-line {
+    margin-bottom: 60px;
+}
+
+header .headline {
+    margin:0 auto 8px;
+}
+
 .headline {
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
     color: var(--text-headline);
-    margin-bottom: 8px;
 }
 
 .headline, .subtitle, p {
     font-size: 16px;
 }
 
+.subtitle {
+    font-style: italic;
+    text-align: center;
+    margin: 24px auto 40px;
+}
+
 .subtitle, p {
     color: var(--text-secundary);
 }
 
+main .headline {
+    margin: 0 auto 2px;
+}
+
 h1 {
     font-size: 36px;
+    margin-bottom: 40px;
 }
 
 h2 {
@@ -51,6 +69,10 @@ h3 {
 
 h1, h2, h3 {
     color: var(--text-primary);
+}
+
+#title p {
+    margin: 8px auto 64px;
 }
 
 span, li {
